@@ -2,10 +2,15 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
+    { "source": "/explore", "destination": "/explore.html" },
     { "source": "/science", "destination": "/science.html" },
     { "source": "/commerce", "destination": "/commerce.html" },
     { "source": "/arts", "destination": "/arts.html" },
     { "source": "/diploma", "destination": "/diploma.html" },
-    { "source": "/iti", "destination": "/iti.html" }
+    { "source": "/iti", "destination": "/iti.html" },
+    { "source": "/microbiology", "destination": "/microbiology.html" },
+    { "source": "/agriculture", "destination": "/agriculture.html" },
+    { "source": "/sports", "destination": "/sports.html" },
+    { "source": "/government", "destination": "/government.html" }
   ]
 }
