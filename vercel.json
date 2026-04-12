@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/science", "destination": "/science.html" },
+    { "source": "/commerce", "destination": "/commerce.html" },
+    { "source": "/arts", "destination": "/arts.html" },
+    { "source": "/diploma", "destination": "/diploma.html" },
+    { "source": "/iti", "destination": "/iti.html" },
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}
