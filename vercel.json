@@ -7,7 +7,6 @@
     { "source": "/commerce", "destination": "/commerce.html" },
     { "source": "/arts", "destination": "/arts.html" },
     { "source": "/diploma", "destination": "/diploma.html" },
-    { "source": "/iti", "destination": "/iti.html" },
-    { "source": "/(.*)", "destination": "/$1" }
+    { "source": "/iti", "destination": "/iti.html" }
   ]
 }
